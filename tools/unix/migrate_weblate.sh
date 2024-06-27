@@ -39,3 +39,12 @@ sed -i "" -E "/^<!-- Language: [-a-zA-Z]+ -->/d" $android_strings_xml
 # Replace \t indents
 sed -i "" -E "s/^	  /        /" $android_strings_xml # Plurals [tab][sp][sp] -> 8x[sp]
 sed -i "" -E "s/^	/    /" $android_strings_xml # Other [tab] -> 4x[sp]
+
+# Prepare iPhone files for Weblate
+iphone_strings=$(find iphone/Maps/LocalizedStrings/*.lproj -name "Localizable.strings" -type f)
+iphone_infoplist_strings=$(find iphone/Maps/LocalizedStrings/*.lproj -name "InfoPlist.strings" -type f)
+iphone_stringsdict=$(find iphone/Maps/LocalizedStrings/*.lproj -name "Localizable.stringsdict" -type f)
+
+# Remove Twine headers
+sed -i "" 1,6d $iphone_strings $iphone_infoplist_strings # Remove Twine header from .strings
+sed -i "" 3,6d $iphone_stringsdict # Remove Twine header from .stringdict
