@@ -52,7 +52,8 @@
     <string name="disconnect_usb_cable">請拔除 USB 線或插入 SD 卡以使用 Organic Maps</string>
     <!-- Used in DownloadResources startup screen -->
     <string name="not_enough_free_space_on_sdcard">如要繼續使用，請先釋放一些 SD 卡/ USB 儲存空間</string>
-    <string name="download_resources">在您開始之前，先讓我們下載世界地圖到您的裝置中以便瀏覽。\n這需要資料的 %s。</string>
+    <string name="download_resources">在您開始之前，先讓我們下載世界地圖到您的裝置中以便瀏覽。
+\n這需要資料的 %s。</string>
     <string name="download_resources_continue">跳到地圖</string>
     <string name="downloading_country_can_proceed">正在下載 %s。您現在 可以繼續使用地圖了</string>
     <string name="download_country_ask">下載 %s?</string>
@@ -92,7 +93,8 @@
     <!-- Question dialog for transferring maps from one storage to another -->
     <string name="move_maps">移動地圖？</string>
     <!-- Ask user to wait several minutes (some long process in modal dialog). -->
-    <string name="wait_several_minutes">這可能需要幾分鐘\n請稍候…</string>
+    <string name="wait_several_minutes">這可能需要幾分鐘
+\n請稍候…</string>
     <!-- Measurement units title in settings activity -->
     <string name="measurement_units">測量單位</string>
     <!-- Detailed description of Measurement Units settings button -->
@@ -151,7 +153,11 @@
     <string name="description">描述說明</string>
     <!-- Email Subject when sharing bookmark list -->
     <string name="share_bookmarks_email_subject">已分享 Organic Maps 書籤</string>
-    <string name="share_bookmarks_email_body">你好！\n\n附件為 Organic Maps app 的書籤，如果你有安裝 Organic Maps 則直接開啟，如果沒有的話，請先在 iOS 或是 Android 裝置，從下面連結下載：https://omaps.app/get?kmz\n\n旅行時用上 Organic Maps!</string>
+    <string name="share_bookmarks_email_body">你好！
+\n
+\n附件為 Organic Maps app 的書籤，如果你有安裝 Organic Maps 則直接開啟，如果沒有的話，請先在 iOS 或是 Android 裝置，從下面連結下載：https://omaps.app/get?kmz
+\n
+\n旅行時用上 Organic Maps!</string>
     <!-- message title of loading file -->
     <string name="load_kmz_title">正在載入書籤…</string>
     <!-- Kmz file successful loading -->
@@ -159,9 +165,12 @@
     <!-- Kml file loading failed -->
     <string name="load_kmz_failed">書籤上傳失敗。 檔案可能有毀損或是不完全。</string>
     <!-- Failed to recognize the format of a bookmarks or tracks file. -->
-    <string name="unknown_file_type">應用程式無法識別該文件類型：\n%1$s</string>
+    <string name="unknown_file_type">應用程式無法識別該文件類型：
+\n%1$s</string>
     <!-- Failed to open a bookmarks or tracks file in Organic Maps. -->
-    <string name="failed_to_open_file">無法開啟文件 %1$s\n\n%2$s</string>
+    <string name="failed_to_open_file">無法開啟文件 %1$s
+\n
+\n%2$s</string>
     <!-- resource for context menu -->
     <string name="edit">編輯</string>
     <!-- Warning message when doing search around current position -->
@@ -177,7 +186,11 @@
     <!-- Subject for emailed position -->
     <string name="my_position_share_email_subject">嗨，到 Organic Maps 地圖查看我的目前位置！</string>
     <!-- Share my position using EMail, %1$@ is om:// and %2$@ is https://omaps.app link WITHOUT NAME -->
-    <string name="my_position_share_email">嗨，\n\n我現在在這：%1$s。點擊此連結 %2$s 或此連結 %3$s 來查看在地圖上的位置。\n\n謝謝。</string>
+    <string name="my_position_share_email">嗨，
+\n
+\n我現在在這：%1$s。點擊此連結 %2$s 或此連結 %3$s 來查看在地圖上的位置。
+\n
+\n謝謝。</string>
     <!-- Share button text which opens menu with more buttons, like Message, EMail, Facebook etc. -->
     <string name="share">分享</string>
     <!-- Share by email button text, also used in editor and About. -->
@@ -567,7 +580,9 @@
     <!-- Settings: "Send general feedback" button -->
     <string name="feedback_general">一般反應</string>
     <string name="prefs_languages_information">我們使用系統 TTS 提供語音指示。許多 Android 裝置使用 Google TTS，您可從 Google Play 下載或更新 (https://play.google.com/store/apps/details?id=com.google.android.tts)</string>
-    <string name="prefs_languages_information_off">對於某些語言，您將需要從 App 商店 (Google Play 商店, Galaxy Store) 安裝其他語音合成器或額外的語言套件。\n開啟您裝置的設定 → 語言與輸入 → 語音 → 文字轉換語音輸出。\n在這裡，您可以管理語音合成器的設定（例如，下載語言套件以供離線使用），並選取其他文字轉換語音引擎。</string>
+    <string name="prefs_languages_information_off">對於某些語言，您將需要從 App 商店 (Google Play 商店, Galaxy Store) 安裝其他語音合成器或額外的語言套件。
+\n開啟您裝置的設定 → 語言與輸入 → 語音 → 文字轉換語音輸出。
+\n在這裡，您可以管理語音合成器的設定（例如，下載語言套件以供離線使用），並選取其他文字轉換語音引擎。</string>
     <string name="prefs_languages_information_off_link">如需更多資訊，請參閱本指南。</string>
     <string name="transliteration_title">音譯為拉丁文</string>
     <string name="learn_more">瞭解更多資訊</string>
