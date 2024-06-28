@@ -99,7 +99,6 @@
     <string name="measurement_units">測量單位</string>
     <!-- Detailed description of Measurement Units settings button -->
     <string name="measurement_units_summary">選擇公里或英哩</string>
-
     <!-- SECTION: Search categories -->
     <!-- Search category for cafes, bars, restaurants; any changes should be duplicated in categories.txt @category_eat! -->
     <string name="category_eat">在哪兒吃</string>
@@ -147,7 +146,6 @@
     <string name="category_water">水</string>
     <!-- Search category for RV facilities; any changes should be duplicated in categories.txt @category_rv! -->
     <string name="category_rv">房車用</string>
-
     <!-- SECTION: Other translations -->
     <!-- Notes field in Bookmarks view -->
     <string name="description">描述說明</string>
@@ -356,7 +354,6 @@
     <string name="gray">灰色</string>
     <!-- blue gray color -->
     <string name="blue_gray">藍灰色</string>
-
     <!-- SECTION: Routing dialogs strings -->
     <string name="dialog_routing_disclaimer_title">依照路線行進時，請牢記：</string>
     <string name="dialog_routing_disclaimer_priority">— 路況、交通規則及號誌優先於導航意見；</string>
@@ -386,7 +383,6 @@
     <string name="not_now">現在不要</string>
     <string name="dialog_routing_download_and_build_cross_route">您是否要下載地圖，產生跨越邊界的更好路線？</string>
     <string name="dialog_routing_download_cross_route">若要產生跨越邊界的更理想路線，您需要下載地圖。</string>
-
     <!-- SECTION: Strings for downloading map from search -->
     <string name="search_without_internet_advertisement">要開始搜索和建立路線，請下載地圖，那您就不再需要網絡連接了。</string>
     <string name="search_select_map">選擇地圖</string>
@@ -711,7 +707,6 @@
     <string name="moreyear_ago_sorttype">一年多以前</string>
     <string name="near_me_sorttype">附近</string>
     <string name="others_sorttype">其他</string>
-
     <!-- SECTION: Bookmark types used for sorting -->
     <string name="food_places">食物</string>
     <string name="tourist_places">觀光景點</string>
@@ -822,7 +817,6 @@
     <string name="power_save_dialog_title">關閉省電模式</string>
     <!-- Disclaimer summary shown when Power Saving Mode is enabled -->
     <string name="power_save_dialog_summary">為了獲得最準確的導航，我們建議在手機電池設定中停用省電模式。</string>
-
     <!-- SECTION: Types -->
     <string name="type.addr_interpolation">地址/區塊</string>
     <string name="type.addr_interpolation.even">地址/區塊</string>
@@ -949,7 +943,6 @@
     <string name="type.amenity.prison">監獄</string>
     <string name="type.amenity.pub">酒館</string>
     <string name="type.amenity.public_bookcase">書架</string>
-
     <!-- SECTION: Types: Recycling -->
     <string name="type.amenity.recycling.centre">回收中心</string>
     <string name="type.amenity.recycling">回收箱</string>
@@ -1155,7 +1148,6 @@
     <string name="type.healthcare.psychotherapist">心理治療</string>
     <string name="type.healthcare.sample_collection">採樣</string>
     <string name="type.healthcare.speech_therapist">言語治療</string>
-
     <!-- SECTION: Types: Roads -->
     <!-- These translations are used for all type.highway.*.bridge. -->
     <string name="type.highway.bridleway.bridge">橋</string>
@@ -1314,7 +1306,6 @@
     <string name="type.area_highway.track">土路</string>
     <string name="type.area_highway.trunk">主幹道</string>
     <string name="type.area_highway.unclassified">道路</string>
-
     <!-- SECTION: Types: Historic -->
     <string name="type.historic">歷史地點</string>
     <string name="type.historic.aircraft">歷史悠久的飛機</string>

@@ -112,7 +112,6 @@
     <string name="measurement_units">Afstandseenheid</string>
     <!-- Detailed description of Measurement Units settings button -->
     <string name="measurement_units_summary">Kies tussen mijlen en kilometers</string>
-
     <!-- SECTION: Search categories -->
     <!-- Search category for cafes, bars, restaurants; any changes should be duplicated in categories.txt @category_eat! -->
     <string name="category_eat">Waar iets gaan eten</string>
@@ -160,7 +159,6 @@
     <string name="category_water">Water</string>
     <!-- Search category for RV facilities; any changes should be duplicated in categories.txt @category_rv! -->
     <string name="category_rv">Caravanfaciliteiten</string>
-
     <!-- SECTION: Other translations -->
     <!-- Notes field in Bookmarks view -->
     <string name="description">Notities</string>
@@ -363,7 +361,6 @@
     <string name="gray">Grijs</string>
     <!-- blue gray color -->
     <string name="blue_gray">Grijsblauw</string>
-
     <!-- SECTION: Routing dialogs strings -->
     <string name="dialog_routing_disclaimer_title">Belangrijk bij het volgen van een route:</string>
     <string name="dialog_routing_disclaimer_priority">— De toestand van het wegdek, de verkeersregels en de -borden hebben altijd voorrang op het advies van het navigatiesysteem;</string>
@@ -393,7 +390,6 @@
     <string name="not_now">Niet nu</string>
     <string name="dialog_routing_download_and_build_cross_route">Wilt u de kaart downloaden en een betere route samenstellen die meer dan één kaart beslaat?</string>
     <string name="dialog_routing_download_cross_route">Download de kaart om een betere route samen te stellen die de grenzen van deze kaart overschrijdt.</string>
-
     <!-- SECTION: Strings for downloading map from search -->
     <string name="search_without_internet_advertisement">Om te beginnen met zoeken en om routebeschrijvingen te kunnen maken, moet u de kaart downloaden. U heeft vervolgens geen internetverbinding meer nodig.</string>
     <string name="search_select_map">Selecteer de kaart</string>
@@ -722,7 +718,6 @@
     <string name="moreyear_ago_sorttype">Meer dan een jaar geleden</string>
     <string name="near_me_sorttype">Dicht bij mij</string>
     <string name="others_sorttype">Andere</string>
-
     <!-- SECTION: Bookmark types used for sorting -->
     <string name="food_places">Eten</string>
     <string name="tourist_places">Bezienswaardigheden</string>
@@ -843,7 +838,6 @@
     <string name="power_save_dialog_title">Schakel energiebesparingsmodus uit</string>
     <!-- Disclaimer summary shown when Power Saving Mode is enabled -->
     <string name="power_save_dialog_summary">Voor de meest nauwkeurige navigatie raden we aan om de energiebesparende modus uit te schakelen in de batterij-instellingen van de telefoon.</string>
-
     <!-- SECTION: Types -->
     <string name="type.addr_interpolation">Adres/blok</string>
     <string name="type.addr_interpolation.even">Adres/blok</string>
@@ -971,7 +965,6 @@
     <string name="type.amenity.prison">Gevangenis</string>
     <string name="type.amenity.pub">Kroeg</string>
     <string name="type.amenity.public_bookcase">Boekenkast</string>
-
     <!-- SECTION: Types: Recycling -->
     <string name="type.amenity.recycling.centre">Milieustraat</string>
     <string name="type.amenity.recycling">Recycling container</string>
@@ -1205,7 +1198,6 @@
     <string name="type.healthcare.psychotherapist">Psychotherapie</string>
     <string name="type.healthcare.sample_collection">Bemonstering</string>
     <string name="type.healthcare.speech_therapist">Logopedie</string>
-
     <!-- SECTION: Types: Roads -->
     <string name="type.highway">Straat</string>
     <string name="type.highway.bridleway">Ruiterpad</string>
@@ -1371,7 +1363,6 @@
     <string name="type.area_highway.track">Straat</string>
     <string name="type.area_highway.trunk">Straat</string>
     <string name="type.area_highway.unclassified">Straat</string>
-
     <!-- SECTION: Types: Historic -->
     <string name="type.historic">Historisch object</string>
     <string name="type.historic.aircraft">Historische vliegtuigen</string>

@@ -112,7 +112,6 @@
     <string name="measurement_units">יחידות  מדידה</string>
     <!-- Detailed description of Measurement Units settings button -->
     <string name="measurement_units_summary">בחר בין מיילים לקילומטרים</string>
-
     <!-- SECTION: Search categories -->
     <!-- Search category for cafes, bars, restaurants; any changes should be duplicated in categories.txt @category_eat! -->
     <string name="category_eat">איפה לאכול</string>
@@ -158,7 +157,6 @@
     <string name="category_water">מים</string>
     <!-- Search category for RV facilities; any changes should be duplicated in categories.txt @category_rv! -->
     <string name="category_rv">עבור קרוואנים</string>
-
     <!-- SECTION: Other translations -->
     <!-- Notes field in Bookmarks view -->
     <string name="description">הערות</string>
@@ -359,7 +357,6 @@
     <string name="gray">אפור</string>
     <!-- blue gray color -->
     <string name="blue_gray">כחול אפרפר</string>
-
     <!-- SECTION: Routing dialogs strings -->
     <string name="dialog_routing_disclaimer_title">בעת נסיעה לאורך המסלול, שים לב לדברים הבאים:</string>
     <string name="dialog_routing_disclaimer_priority">— תנאי הכביש, חוקי התנועה והתמרורים תמיד מקבלים עדיפות על פני הנחיות הניווט;</string>
@@ -389,7 +386,6 @@
     <string name="not_now">לא עכשיו</string>
     <string name="dialog_routing_download_and_build_cross_route">האם ברצונך להוריד את המפה וליצור מסלול מיטבי יותר, הכולל יותר מאשר מפה אחת?</string>
     <string name="dialog_routing_download_cross_route">הורד מפות נוספות כדי ליצור מסלול יותר טוב שחוצה את גבולות המפה הזו.</string>
-
     <!-- SECTION: Strings for downloading map from search -->
     <string name="search_without_internet_advertisement">על מנת להתחיל לחפש וליצור מסלולים, הורידו בבקשה את המפה. לאחר מכן לא תזדקקו יותר לחיבור לאינטרנט.</string>
     <string name="search_select_map">בחר מפה</string>
@@ -719,7 +715,6 @@
     <string name="moreyear_ago_sorttype">לפני יותר משנה</string>
     <string name="near_me_sorttype">קרוב אלי</string>
     <string name="others_sorttype">אחרים</string>
-
     <!-- SECTION: Bookmark types used for sorting -->
     <string name="food_places">אוכל</string>
     <string name="tourist_places">תיירות</string>
@@ -836,7 +831,6 @@
     <string name="power_save_dialog_title">כבה מצב חיסכון באנרגיה</string>
     <!-- Disclaimer summary shown when Power Saving Mode is enabled -->
     <string name="power_save_dialog_summary">לניווט המדויק ביותר, אנו ממליצים להשבית את מצב חיסכון בחשמל בהגדרות הסוללה של הטלפון.</string>
-
     <!-- SECTION: Types -->
     <string name="type.addr_interpolation">כתובת/חסימה</string>
     <string name="type.addr_interpolation.even">כתובת/חסימה</string>
@@ -877,7 +871,6 @@
     <string name="type.amenity.parking_space.disabled">םיכנל הינח</string>
     <string name="type.amenity.place_of_worship.christian.mormon">כנסיית ישוע המשיח של קדושי אחרון הימים</string>
     <string name="type.amenity.place_of_worship.christian.jehovahs_witness">בית הכנסת של עדי יהוה</string>
-
     <!-- SECTION: Types: Recycling -->
     <string name="type.recycling.batteries">תוללוס</string>
     <!-- Weather shelter (including sun shelters and natural rock shelters). -->
@@ -1032,7 +1025,6 @@
     <string name="type.healthcare.psychotherapist">פסיכותרפיה</string>
     <string name="type.healthcare.sample_collection">דְגִימָה</string>
     <string name="type.healthcare.speech_therapist">ריפוי בדיבור</string>
-
     <!-- SECTION: Types: Roads -->
     <!-- These translations are used for all type.highway.*.bridge. -->
     <string name="type.highway.bridleway.bridge">לְגַשֵׁר</string>
@@ -1131,7 +1123,6 @@
     <string name="type.highway.unclassified.bridge">לְגַשֵׁר</string>
     <!-- These translations are used for all type.highway.*.tunnel. -->
     <string name="type.highway.unclassified.tunnel">מִנהָרָה</string>
-
     <!-- SECTION: Types: Historic -->
     <string name="type.historic">חפץ היסטורי</string>
     <string name="type.historic.aircraft">מטוס היסטורי</string>
