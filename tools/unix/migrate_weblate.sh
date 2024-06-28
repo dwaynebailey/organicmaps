@@ -40,6 +40,9 @@ sed -i "" -E "/^<!-- Language: [-a-zA-Z]+ -->/d" $android_strings_xml
 sed -i "" -E "s/^	  /        /" $android_strings_xml # Plurals [tab][sp][sp] -> 8x[sp]
 sed -i "" -E "s/^	/    /" $android_strings_xml # Other [tab] -> 4x[sp]
 
+# Adapt \n to incluce a line break like Weblate does
+sed -i "" -E '/<string /s/\\n/\n\\n/g' $android_strings_xml
+
 # Prepare iPhone files for Weblate
 iphone_strings=$(find iphone/Maps/LocalizedStrings/*.lproj -name "Localizable.strings" -type f)
 iphone_infoplist_strings=$(find iphone/Maps/LocalizedStrings/*.lproj -name "InfoPlist.strings" -type f)
