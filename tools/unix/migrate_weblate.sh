@@ -44,6 +44,10 @@ sed -i "" -E "s/^	/    /" $android_strings_xml # Other [tab] -> 4x[sp]
 sed -i "" -E '/<string /s/\\n/\n\\n/g' $android_strings_xml
 # Remove blank lines before <! SECTION...
 sed -i "" -E '/^$/d' $android_strings_xml
+# Remove EOF newlines
+for xml_file in $android_strings_xml; do
+	truncate -s -1  $xml_file
+done
 
 # Prepare iPhone files for Weblate
 iphone_strings=$(find iphone/Maps/LocalizedStrings/*.lproj -name "Localizable.strings" -type f)
