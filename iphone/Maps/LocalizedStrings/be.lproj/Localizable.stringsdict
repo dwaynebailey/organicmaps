@@ -17,6 +17,8 @@
       <string>d</string>
       <key>few</key>
       <string>%d закладкі</string>
+      <key>many</key>
+      <string>%d закладак</string>
       <key>one</key>
       <string>%d закладка</string>
       <key>other</key>
@@ -51,6 +53,8 @@
       <string>d</string>
       <key>few</key>
       <string>%d сцежкі</string>
+      <key>many</key>
+      <string>%d сцежак</string>
       <key>one</key>
       <string>%d сцежка</string>
       <key>other</key>
