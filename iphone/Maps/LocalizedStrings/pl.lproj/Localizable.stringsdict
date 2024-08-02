@@ -32,14 +32,14 @@
       <string>NSStringPluralRuleType</string>
       <key>NSStringFormatValueTypeKey</key>
       <string>d</string>
+      <key>few</key>
+      <string>Znaleziono %d pliki. Zobaczysz je po konwersji.</string>
       <key>many</key>
       <string>Znaleziono %d plików. Zobaczysz je po konwersji.</string>
       <key>one</key>
       <string>Znaleziono %d plik. Zobaczysz to po konwersji.</string>
       <key>other</key>
       <string>Znaleziono %d plików. Zobaczysz je po konwersji.</string>
-      <key>two</key>
-      <string>Znaleziono %d pliki. Zobaczysz je po konwersji.</string>
     </dict>
   </dict>
 
