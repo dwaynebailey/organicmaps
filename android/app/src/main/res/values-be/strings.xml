@@ -607,6 +607,7 @@
     <string name="bookmark_lists_show_all">Паказаць усе</string>
     <plurals name="bookmarks_places">
         <item quantity="few">%d закладкі</item>
+        <item quantity="many">%d закладак</item>
         <item quantity="one">%d закладка</item>
         <item quantity="other">%d закладак</item>
     </plurals>
@@ -627,6 +628,7 @@
     <string name="restore">Аднавіць</string>
     <plurals name="tracks">
         <item quantity="few">%d сцежкі</item>
+        <item quantity="many">%d сцежак</item>
         <item quantity="one">%d сцежка</item>
         <item quantity="other">%d сцежак</item>
     </plurals>
