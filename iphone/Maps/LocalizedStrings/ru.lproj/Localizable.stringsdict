@@ -21,8 +21,6 @@
       <string>%d меток</string>
       <key>one</key>
       <string>%d метка</string>
-      <key>other</key>
-      <string>%d меток</string>
     </dict>
   </dict>
 
@@ -42,8 +40,6 @@
       <string>%d файлов было найдено. Вы увидите их после конвертации.</string>
       <key>one</key>
       <string>%d файл был найден. Вы увидите его после конвертации.</string>
-      <key>other</key>
-      <string>%d файлов было найдено. Вы увидите их после конвертации.</string>
     </dict>
   </dict>
 
@@ -63,8 +59,6 @@
       <string>%d треков</string>
       <key>one</key>
       <string>%d трек</string>
-      <key>other</key>
-      <string>%d треков</string>
     </dict>
   </dict>
 </dict>
