@@ -7,7 +7,7 @@
 "cancel_download" = "Utzi deskarga";
 
 /* Button which deletes downloaded country */
-"delete" = "Ezabatu";
+"delete" = "Ezabatu rdb";
 "download_maps" = "Deskargatu mapak";
 
 /* Settings/Downloader - info for country which started downloading */
