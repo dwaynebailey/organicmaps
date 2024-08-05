@@ -45,12 +45,26 @@ sed -i "" -E "s/^	/    /" $android_strings_xml # Other [tab] -> 4x[sp]
 sed -i "" -E '/<string /s/\\n/\n\\n/g' $android_strings_xml
 # Remove blank lines before <! SECTION...
 sed -i "" -E '/^$/d' $android_strings_xml
+# Remove 'other' translation form for languages that don't have it in Weblate
+#sed -i "" -E '/<item quantity="other">/d' android/app/src/main/res/values-{be,pl,ru,uk}/strings.xml
+# Sort plurals
+sed -i "" -E '/<item quantity="zero"/s/(<item quantity="zero">)/0\1/' $android_strings_xml
+sed -i "" -E '/<item quantity="one"/s/(<item quantity="one">)/1\1/' $android_strings_xml
+sed -i "" -E '/<item quantity="two"/s/(<item quantity="two">)/2\1/' $android_strings_xml
+sed -i "" -E '/<item quantity="few"/s/(<item quantity="few">)/3\1/' $android_strings_xml
+sed -i "" -E '/<item quantity="many"/s/(<item quantity="many">)/4\1/' $android_strings_xml
+sed -i "" -E '/<item quantity="other"/s/(<item quantity="other">)/5\1/' $android_strings_xml
+#vim -c 'exe "normal /<plurals name=\<cr>jV/<\/plurals>\<cr>k: ! sort\<cr>" | wq!' android/app/src/main/res/values-be/strings.xml
+gawk -i inplace  '/<plurals name=/ {f=0; delete a}
+      /<item quantity=/ {f=1}
+      /<\/plurals>/ {f=0; n=asort(a); for (i=1;i<=n;i++) print a[i]}
+      !f
+      f{a[$0]=$0}' $android_strings_xml
+sed -i "" -E '/<item quantity=/s/[[:digit:]](<item quantity=.+$)/\1/' $android_strings_xml
 # Remove EOF newlines
 for xml_file in $android_strings_xml; do
 	truncate -s -1  $xml_file
 done
-# Remove 'other' translation form for languages that don't have it in Weblate
-#sed -i "" -E '/<item quantity="other">/d' android/app/src/main/res/values-{be,pl,ru,uk}/strings.xml
 
 # Prepare iPhone files for Weblate
 iphone_strings=$(find iphone/Maps/LocalizedStrings/*.lproj -name "Localizable.strings" -type f)
