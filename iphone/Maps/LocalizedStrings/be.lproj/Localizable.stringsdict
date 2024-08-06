@@ -12,12 +12,14 @@
 			<string>NSStringPluralRuleType</string>
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
+			<key>zero</key>
+			<string>%d zero</string>
+			<key>one</key>
+			<string>%d закладка</string>
 			<key>few</key>
 			<string>%d закладкі</string>
 			<key>many</key>
 			<string>%d закладак</string>
-			<key>one</key>
-			<string>%d закладка</string>
 		</dict>
 	</dict>
 	<key>bookmarks_detect_message</key>
@@ -42,12 +44,12 @@
 			<string>NSStringPluralRuleType</string>
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
+			<key>one</key>
+			<string>%d сцежка</string>
 			<key>few</key>
 			<string>%d сцежкі</string>
 			<key>many</key>
 			<string>%d сцежак</string>
-			<key>one</key>
-			<string>%d сцежка</string>
 		</dict>
 	</dict>
 </dict>
