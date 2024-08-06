@@ -90,5 +90,8 @@ sed -i "" -E '/^[/][*][^*]/i \
 sed -i "" -E $'/^[/][*][*]/,+1{/^"/s/^"/\\\n"/g;}' $iphone_strings $iphone_infoplist_strings
 sed -i "" '1,/^./{/^$/d;}' $iphone_strings $iphone_infoplist_strings # Drop spurious first line
 
+# Indent stringdict 2[sp] -> [tab]
+sed -i "" -E '/[ ]+</s/  /	/g' $iphone_stringsdict
+
 # Remove 'other' translation form for languages that don't have it in Weblate
 sed -i "" -E '/<key>other<\/key>/,+1d' iphone/Maps/LocalizedStrings/{be,pl,ru,uk}.lproj/Localizable.stringsdict
