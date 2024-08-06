@@ -5,55 +5,55 @@
 
 <!-- ********** Strings for downloading map from search **********/ -->
 
-  <key>bookmarks_places</key>
-  <dict>
-    <key>NSStringLocalizedFormatKey</key>
-    <string>%#@value@</string>
-    <key>value</key>
-    <dict>
-      <key>NSStringFormatSpecTypeKey</key>
-      <string>NSStringPluralRuleType</string>
-      <key>NSStringFormatValueTypeKey</key>
-      <string>d</string>
-      <key>few</key>
-      <string>%d закладкі</string>
-      <key>many</key>
-      <string>%d закладак</string>
-      <key>one</key>
-      <string>%d закладка</string>
-    </dict>
-  </dict>
+	<key>bookmarks_places</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>%d закладкі</string>
+			<key>many</key>
+			<string>%d закладак</string>
+			<key>one</key>
+			<string>%d закладка</string>
+		</dict>
+	</dict>
 
-  <key>bookmarks_detect_message</key>
-  <dict>
-    <key>NSStringLocalizedFormatKey</key>
-    <string>%#@value@</string>
-    <key>value</key>
-    <dict>
-      <key>NSStringFormatSpecTypeKey</key>
-      <string>NSStringPluralRuleType</string>
-      <key>NSStringFormatValueTypeKey</key>
-      <string>d</string>
-    </dict>
-  </dict>
+	<key>bookmarks_detect_message</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+		</dict>
+	</dict>
 
-  <key>tracks</key>
-  <dict>
-    <key>NSStringLocalizedFormatKey</key>
-    <string>%#@value@</string>
-    <key>value</key>
-    <dict>
-      <key>NSStringFormatSpecTypeKey</key>
-      <string>NSStringPluralRuleType</string>
-      <key>NSStringFormatValueTypeKey</key>
-      <string>d</string>
-      <key>few</key>
-      <string>%d сцежкі</string>
-      <key>many</key>
-      <string>%d сцежак</string>
-      <key>one</key>
-      <string>%d сцежка</string>
-    </dict>
-  </dict>
+	<key>tracks</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>few</key>
+			<string>%d сцежкі</string>
+			<key>many</key>
+			<string>%d сцежак</string>
+			<key>one</key>
+			<string>%d сцежка</string>
+		</dict>
+	</dict>
 </dict>
 </plist>
