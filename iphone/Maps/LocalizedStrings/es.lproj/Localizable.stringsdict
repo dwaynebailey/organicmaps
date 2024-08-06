@@ -12,8 +12,12 @@
 			<string>NSStringPluralRuleType</string>
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
-			<key>other</key>
-			<string>%d marcadores</string>
+			<key>zero</key>
+			<string>%d zero</string>
+			<key>one</key>
+			<string>%d one</string>
+			<key>many</key>
+			<string>%d other</string>
 		</dict>
 	</dict>
 	<key>bookmarks_detect_message</key>
