@@ -2022,4 +2022,8 @@
     <string name="type.amenity.events_venue">Gebeureplek</string>
     <string name="type.shop.auction">Veiling</string>
     <string name="type.shop.collector">Versamelvoorwerpe</string>
+    <plurals name="bookmarks_places">
+        <item quantity="one">%d bookmerk</item>
+        <item quantity="other">%d bookmerke</item>
+    </plurals>
 </resources>
