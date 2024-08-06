@@ -12,6 +12,16 @@
 			<string>NSStringPluralRuleType</string>
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
+			<key>zero</key>
+			<string>%d zero</string>
+			<key>one</key>
+			<string>%d one</string>
+			<key>two</key>
+			<string>%d two</string>
+			<key>few</key>
+			<string>%d few</string>
+			<key>many</key>
+			<string>%d many</string>
 			<key>other</key>
 			<string>%d bookmarks</string>
 		</dict>
