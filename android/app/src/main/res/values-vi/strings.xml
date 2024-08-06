@@ -576,7 +576,7 @@
     <string name="bookmark_lists_hide_all">Ẩn tất cả</string>
     <string name="bookmark_lists_show_all">Hiển thị tất cả</string>
     <plurals name="bookmarks_places">
-        <item quantity="other">%d dấu trang</item>
+        <item quantity="other">%d dấu trang other</item>
     </plurals>
     <string name="bookmarks_create_new_group">Tạo danh sách mới</string>
     <!-- Bookmark categories screen, button that opens folder selection dialog to import KML/KMZ/GPX/KMB files -->
@@ -593,12 +593,11 @@
     <string name="phone_number">Số điện thoại</string>
     <string name="profile">Hồ sơ OpenStreetMap</string>
     <plurals name="bookmarks_detect_message">
-        <item quantity="one">%d dã tìm thấy một tệp. Bạn sẽ thấy nó sau khi chuyển đổi.</item>
-        <item quantity="other">%d tập tin đã được tìm thấy. Bạn sẽ thấy chúng sau khi chuyển đổi.</item>
+        <item quantity="other">%d tập tin đã được tìm thấy. Bạn sẽ thấy chúng sau khi chuyển đổi. other</item>
     </plurals>
     <string name="restore">Khôi phục</string>
     <plurals name="tracks">
-        <item quantity="other">%d các chặn đường</item>
+        <item quantity="other">%d các chặn đường other</item>
     </plurals>
     <!-- Settings privacy group in settings screen -->
     <string name="privacy">Sự riêng tư</string>
