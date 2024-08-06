@@ -12,6 +12,12 @@
 			<string>NSStringPluralRuleType</string>
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
+			<key>zero</key>
+			<string>%d zero</string>
+			<key>one</key>
+			<string>%d one</string>
+			<key>few</key>
+			<string>%d few</string>
 			<key>many</key>
 			<string>Zakładki: %d</string>
 		</dict>
@@ -26,12 +32,12 @@
 			<string>NSStringPluralRuleType</string>
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
+			<key>one</key>
+			<string>Znaleziono %d plik. Zobaczysz to po konwersji.</string>
 			<key>few</key>
 			<string>Znaleziono %d pliki. Zobaczysz je po konwersji.</string>
 			<key>many</key>
 			<string>Znaleziono %d plików. Zobaczysz je po konwersji.</string>
-			<key>one</key>
-			<string>Znaleziono %d plik. Zobaczysz to po konwersji.</string>
 		</dict>
 	</dict>
 	<key>tracks</key>
@@ -44,12 +50,12 @@
 			<string>NSStringPluralRuleType</string>
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
+			<key>one</key>
+			<string>%d trasa</string>
 			<key>few</key>
 			<string>%d trasy</string>
 			<key>many</key>
 			<string>%d tras</string>
-			<key>one</key>
-			<string>%d trasa</string>
 		</dict>
 	</dict>
 </dict>
