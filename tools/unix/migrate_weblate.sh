@@ -91,7 +91,7 @@ sed -i "" -E $'/^[/][*][*]/,+1{/^"/s/^"/\\\n"/g;}' $iphone_strings $iphone_infop
 sed -i "" '1,/^./{/^$/d;}' $iphone_strings $iphone_infoplist_strings # Drop spurious first line
 
 # Indent stringdict 2[sp] -> [tab]
-sed -i "" -E '/[ ]+</s/  /	/g' $iphone_stringsdict
+#sed -i "" -E '/[ ]+</s/  /	/g' $iphone_stringsdict
 # Remove blank lines
 sed -i "" -E '/^$/d' $iphone_stringsdict
 # Remove comments - these don't roundtrip in Weblate
