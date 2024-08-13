@@ -44,7 +44,7 @@ android_strings_xml=$(find android/app/src/main/res/values* -name "strings.xml" 
 # Adapt \n to incluce a line break like Weblate does
 sed -i "" -E '/<string /s/\\n/\n\\n/g' $android_strings_xml
 # Remove blank lines before <! SECTION...
-sed -i "" -E '/^$/d' $android_strings_xml
+#sed -i "" -E '/^$/d' $android_strings_xml
 # Remove 'other' translation form for languages that don't have it in Weblate
 #sed -i "" -E '/<item quantity="other">/d' android/app/src/main/res/values-{be,pl,ru,uk}/strings.xml
 # Sort plurals
