@@ -76,7 +76,7 @@ iphone_stringsdict=$(find iphone/Maps/LocalizedStrings/*.lproj -name "Localizabl
 #sed -i "" 3,6d $iphone_stringsdict # Remove Twine header from .stringdict
 
 # Remove blank lines between translatable strings
-sed -i "" -E '/^$/d' $iphone_strings $iphone_infoplist_strings
+#sed -i "" -E '/^$/d' $iphone_strings $iphone_infoplist_strings
 # Readd two blank line before header comments
 sed -i "" -E '/^[/][*][*]/i \
 \
