@@ -83,9 +83,9 @@ iphone_stringsdict=$(find iphone/Maps/LocalizedStrings/*.lproj -name "Localizabl
 #\
 #' $iphone_strings $iphone_infoplist_strings
 # Readd blank line before comments
-sed -i "" -E '/^[/][*][^*]/i \
-\
-' $iphone_strings $iphone_infoplist_strings
+#sed -i "" -E '/^[/][*][^*]/i \
+#\
+#' $iphone_strings $iphone_infoplist_strings
 # Add a blank line after comment headers
 sed -i "" -E $'/^[/][*][*]/,+1{/^"/s/^"/\\\n"/g;}' $iphone_strings $iphone_infoplist_strings
 sed -i "" '1,/^./{/^$/d;}' $iphone_strings $iphone_infoplist_strings # Drop spurious first line
