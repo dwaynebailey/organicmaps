@@ -78,10 +78,10 @@ iphone_stringsdict=$(find iphone/Maps/LocalizedStrings/*.lproj -name "Localizabl
 # Remove blank lines between translatable strings
 #sed -i "" -E '/^$/d' $iphone_strings $iphone_infoplist_strings
 # Readd two blank line before header comments
-sed -i "" -E '/^[/][*][*]/i \
-\
-\
-' $iphone_strings $iphone_infoplist_strings
+#sed -i "" -E '/^[/][*][*]/i \
+#\
+#\
+#' $iphone_strings $iphone_infoplist_strings
 # Readd blank line before comments
 sed -i "" -E '/^[/][*][^*]/i \
 \
